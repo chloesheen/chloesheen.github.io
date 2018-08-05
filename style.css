@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Work+Sans:300');
+
+abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{
+	margin:0;
+	padding:0;
+	border:0;
+	font-family: 'jaapokki', cursive;
+	vertical-align:baseline
+}
+
+a{
+	margin:0;
+	padding:0;
+	border:0;
+	font-weight: 500;
+	font-family: 'Work Sans', cursive;
+	vertical-align:baseline
+}
+
+body,header{
+	border:0;
+	font-family: 'jaapokki', cursive;
+	vertical-align:baseline
+
+}
+
+body{
+	line-height:1;
+	font-size:62.5%;
+	overflow:hidden;
+	color:#000;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	margin:0;
+	padding:30px
+}
+
+header{
+	padding:0;
+	margin:0 0 80px
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+	display:block
+}
+
+ol,ul{
+	list-style:none
+}
+
+blockquote,q{
+	quotes:none
+}
+
+blockquote:after,blockquote:before,q:after,q:before{
+	content:none
+}
+
+table{
+	border-collapse:collapse;border-spacing:0
+}
+
+html{
+	box-sizing:border-box
+}
+
+*,:after,:before{
+	box-sizing:inherit
+}
+
+
+@font-face{
+	font-family:'jaapokki';
+	font-weight:400;
+	font-style:normal;
+	src:url(/Users/chloesheen/Library/Fonts/Jaapokkienchance-Regular.otf);
+}
+/*
+@font-face{
+	font-family:'work_sansbold';
+	font-weight:400;
+	font-style:normal;
+	src:url(../assets/fonts/worksans-bold-webfont.woff2) format("woff2"),url(../assets/fonts/worksans-bold-webfont.woff) format("woff")
+}
+
+@font-face{
+	font-family:'work_sansextrabold';
+	font-weight:400;
+	font-style:normal;
+	src:url(../assets/fonts/worksans-extrabold-webfont.woff2) format("woff2"),url(../assets/fonts/worksans-extrabold-webfont.woff) format("woff")
+
+}
+
+@font-face{
+	font-family:'work_sansextralight';
+	font-weight:400;
+	font-style:normal;
+	src:url(../assets/fonts/worksans-extralight-webfont.woff2) format("woff2"),url(../assets/fonts/worksans-extralight-webfont.woff) format("woff")
+}
+
+@font-face{
+	font-family:'work_sanslight';
+	font-weight:400;
+	font-style:normal;
+	src:url(../assets/fonts/worksans-light-webfont.woff2) format("woff2"),url(../assets/fonts/worksans-light-webfont.woff) format("woff")
+}
+
+@font-face{
+	font-family:'work_sansmedium';font-weight:400;font-style:normal;src:url(../assets/fonts/worksans-medium-webfont.woff2) format("woff2"),url(../assets/fonts/worksans-medium-webfont.woff) format("woff")
+}
+
+@font-face{
+	font-family:'work_sansregular';font-weight:400;font-style:normal;src:url(../assets/fonts/worksans-regular-webfont.woff2) format("woff2"),url(../assets/fonts/worksans-regular-webfont.woff) format("woff")
+}
+
+@font-face{
+	font-family:'work_sanssemibold';font-weight:400;font-style:normal;src:url(../assets/fonts/worksans-semibold-webfont.woff2) format("woff2"),url(../assets/fonts/worksans-semibold-webfont.woff) format("woff")
+}
+
+@font-face{
+	font-family:'work_sansthin';font-weight:400;font-style:normal;src:url(../assets/fonts/worksans-thin-webfont.woff2) format("woff2"),url(../assets/fonts/worksans-thin-webfont.woff) format("woff")}
+*/
+@keyframes textArrival{
+	0%{opacity:0;transform:translateX(-10px)}to{opacity:1;transform:translateX(0)}}
+
+@keyframes textArrivalFooter{
+	0%{opacity:0;transform:translateX(-10px)}to{opacity:.5;transform:translateX(0)}
+}
+
+@media screen and (max-width:1440px){body{font-size:55%}}
+
+@media screen and (max-width:1366px){body{font-size:62.5%}}
+
+@media screen and (max-width:1280px){body{padding:10px;font-size:45%}}
+
+@media screen and (max-width:736px){body{padding:10px;overflow:auto}}
+
+a{text-decoration:none;
+	color:inherit;
+	font-weight:bolder;}
+
+a.not-active{cursor:default;
+	}.wrapper{
+			font-weight:700;
+	position:relative;
+	height:calc(100vh - 60px);
+	padding:50px;
+	border:7px solid #f22930;
+	display:-ms-flexbox;
+	display:flex;
+	-ms-flex-pack:center;
+	justify-content:center;
+	-ms-flex-direction:column;
+	flex-direction:column
+}
+
+@media screen and (max-width:1280px){.wrapper{padding:40px;height:calc(100vh - 20px);border-width:5px}}
+@media screen and (max-width:736px){.wrapper{height:100%;padding:25px}}
+@media screen and (max-width:1440px){
+	header{margin-bottom:40px}}
+	header h1,
+	header h2,
+	header p{opacity:0;animation:textArrival .5s forwards}
+	header h1{
+		font-family:"Jaapokki";
+		font-weight: lighter;
+		font-size:5em;
+		margin-bottom:10px;
+
+
+	}
+	header h2{
+		font-family:"Work Sans";
+		font-weight : 400;
+		font-size:2em;
+		margin-bottom:25px;
+		animation-delay:.15s;
+
+	}
+
+@media screen and (max-width:1280px){
+	header h2{
+		margin-bottom:15px}}
+	header p{
+		font-size:1.6em;
+		font-family: 'Work Sans', cursive;
+		font-weight: lighter;
+		/*font-family:"work_sanslight",trebuchet,Arial;*/
+		line-height:1.4;
+		max-width:375px;
+		animation-delay:.3s}
+		header p a{
+			font-family:"Work Sans",trebuchet,Arial;
+		}
+
+@media screen and (max-width:736px){
+	.footer{position:initial}}
+	.footer ul li{
+		display:inline-block;
+		margin:0 15px;
+		opacity:0;
+		transition:all ease-out .25s;
+		animation:textArrivalFooter .5s forwards
+		}.footer ul li:nth-child(1){animation-delay:0.55s}
+		.footer ul li:nth-child(2){animation-delay:0.7s}
+		.footer ul li:nth-child(3){animation-delay:0.85s}
+		.footer ul li:nth-child(4){animation-delay:1s}
+		.footer ul li:nth-child(5){animation-delay:1.15s}
+		.footer ul li:first-child{margin-left:0}
+
+@media screen and (max-width:736px){
+	.footer ul li{display:block;margin:25px 0}}
+	.footer ul li:hover{
+		opacity:1;-ms-transform:translateY(2px);transform:translateY(2px)
+	}
+	.footer ul li a{
+		font-family:"Work Sans",trebuchet,Arial;
+		font-size:1.6em;text-transform:uppercase}
+	.lab,.projects{
+		margin-bottom:45px
+	}
+	.lab h3,.projects h3{
+		font-family:"Work Sans",trebuchet,Arial;
+		font-size:2em;
+		margin-bottom:15px;
+		animation:textArrival .5s forwards;
+		transition-delay:.35s;
+		opacity:0;
+		animation-delay:.5s
+	}
+
+	@media screen and (max-width:1280px){
+		.lab,
+		.projects{margin-bottom:30px}}
+		.lab ul,
+		.projects ul{
+			padding-left:10px;
+			display:inline-block
+		}
+		.lab ul li,
+		.projects ul li{
+			position:relative;
+			margin-bottom:15px;
+			padding-left:25px;
+			animation:textArrival .2s forwards;opacity:0
+		}
+		.lab ul li:before,
+		.projects ul li:before{
+			display:inline-block;
+			width:8px;
+			height:8px;
+			content:' ';
+			background-color:#e44d41;p
+			osition:absolute;top:50%;
+			left:0;-ms-transform:translate(-50%,-50%);
+			transform:translate(-50%,-50%);
+			transition:all ease-out .25s
+		}
+		.lab ul li a,.lab ul li p,
+		.projects ul li a,
+		.projects ul li p{
+			transition:all ease-out .25s;
+			font-family:"Work Sans",trebuchet,Arial;
+			font-size:1.6em;
+			display:inline-block
+		}.lab ul li a:hover,.lab ul li a:hover>span,.lab ul li p:hover,.lab ul li p:hover>span,.projects ul li a:hover,.projects ul li a:hover>span,.projects ul li p:hover,.projects ul li p:hover>span{opacity:1}.lab ul li a:hover:before,.lab ul li p:hover:before,.projects ul li a:hover:before,.projects ul li p:hover:before{-ms-transform:translate(-50%,-50%) rotate(90deg);transform:translate(-50%,-50%) rotate(90deg)}.lab ul li a:focus,.lab ul li a:visited,.lab ul li p:focus,.lab ul li p:visited,.projects ul li a:focus,.projects ul li a:visited,.projects ul li p:focus,.projects ul li p:visited{outline:none}.lab ul li a>span,.lab ul li p>span,.projects ul li a>span,.projects ul li p>span{font-family:"work_sansextralight",trebuchet,Arial;font-size:1em;display:inline-block;opacity:.15;transition:all ease-out .25s}@media screen and (max-width:736px){.lab ul li a>span,.lab ul li p>span,.projects ul li a>span,.projects ul li p>span{display:none}}.lab ul li:nth-child(1),.projects ul li:nth-child(1){animation-delay:.75s}.lab ul li:nth-child(2),.projects ul li:nth-child(2){animation-delay:.85s}.lab ul li:nth-child(3),.projects ul li:nth-child(3){animation-delay:.95s}.lab ul li:nth-child(4),.projects ul li:nth-child(4){animation-delay:1.05s}.lab ul li:nth-child(5),.projects ul li:nth-child(5){animation-delay:1.15s}
