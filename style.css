@@ -75,8 +75,9 @@ html{
 	font-family:'jaapokki-enchance';
 	font-weight:400;
 	font-style:normal;
-	src:url("/Users/chloesheen/Documents/website 2.0/chloesheen.github.io/Jaapokki-font-package-1.0/enchance/Jaapokkienchance-Regular.otf");
+	src:url("Jaapokkienchance-Regular.otf")
 }
+
 /*
 @font-face{
 	font-family:'work_sansbold';
