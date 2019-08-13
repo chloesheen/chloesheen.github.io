@@ -78,51 +78,6 @@ html{
 	src:url("Jaapokkienchance-Regular.otf")
 }
 
-/*
-@font-face{
-	font-family:'work_sansbold';
-	font-weight:400;
-	font-style:normal;
-	src:url(../assets/fonts/worksans-bold-webfont.woff2) format("woff2"),url(../assets/fonts/worksans-bold-webfont.woff) format("woff")
-}
-
-@font-face{
-	font-family:'work_sansextrabold';
-	font-weight:400;
-	font-style:normal;
-	src:url(../assets/fonts/worksans-extrabold-webfont.woff2) format("woff2"),url(../assets/fonts/worksans-extrabold-webfont.woff) format("woff")
-
-}
-
-@font-face{
-	font-family:'work_sansextralight';
-	font-weight:400;
-	font-style:normal;
-	src:url(../assets/fonts/worksans-extralight-webfont.woff2) format("woff2"),url(../assets/fonts/worksans-extralight-webfont.woff) format("woff")
-}
-
-@font-face{
-	font-family:'work_sanslight';
-	font-weight:400;
-	font-style:normal;
-	src:url(../assets/fonts/worksans-light-webfont.woff2) format("woff2"),url(../assets/fonts/worksans-light-webfont.woff) format("woff")
-}
-
-@font-face{
-	font-family:'work_sansmedium';font-weight:400;font-style:normal;src:url(../assets/fonts/worksans-medium-webfont.woff2) format("woff2"),url(../assets/fonts/worksans-medium-webfont.woff) format("woff")
-}
-
-@font-face{
-	font-family:'work_sansregular';font-weight:400;font-style:normal;src:url(../assets/fonts/worksans-regular-webfont.woff2) format("woff2"),url(../assets/fonts/worksans-regular-webfont.woff) format("woff")
-}
-
-@font-face{
-	font-family:'work_sanssemibold';font-weight:400;font-style:normal;src:url(../assets/fonts/worksans-semibold-webfont.woff2) format("woff2"),url(../assets/fonts/worksans-semibold-webfont.woff) format("woff")
-}
-
-@font-face{
-	font-family:'work_sansthin';font-weight:400;font-style:normal;src:url(../assets/fonts/worksans-thin-webfont.woff2) format("woff2"),url(../assets/fonts/worksans-thin-webfont.woff) format("woff")}
-*/
 @keyframes textArrival{
 	0%{opacity:0;transform:translateX(-10px)}to{opacity:1;transform:translateX(0)}}
 
@@ -209,6 +164,7 @@ a.not-active{cursor:default;
 		.footer ul li:nth-child(3){animation-delay:0.85s}
 		.footer ul li:nth-child(4){animation-delay:1s}
 		.footer ul li:nth-child(5){animation-delay:1.15s}
+		.footer ul li:nth-child(6){animation-delay:1.3s}
 		.footer ul li:first-child{margin-left:0}
 
 @media screen and (max-width:736px){
