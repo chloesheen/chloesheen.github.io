@@ -1,76 +1,89 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<title>Chloe Sheen</title>
+		
+		<link rel="icon" href="/favcion-01.png">
+		<link rel="stylesheet" href="/_base.css">
+		<link rel="stylesheet" href="/_fonts.css">
+		<link rel="stylesheet" href="/style.css">
+	</head>
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<meta name="description" content="I'm Chloe Sheen, a developer, educator, and student at the University of Pennsylvania.">
-	<title>Chloe Sheen | Developer, Educator, Student</title>
-	<meta property="og:title" content="Chloe Sheen" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="chloesheen.github.io" />
-	<meta property="og:description" content="I'm Chloe Sheen, a developer, educator, and student at the University of Pennsylvania." />
-
-
-	<link rel="icon" type="image/png" href="/assets/img/favicon.png">
-	<link rel="stylesheet" href="style.css" />
-
-
-
-	<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
-
-</head>
-
-<body>
-
-	<div class="wrapper">
-
+	<body>
 		<header>
-			<h1>CHLOE SHEEN</h1>
-			<h2>Developer, Educator, Student</h2>
-			<p>Graduate student
-				<a target="_blank" href="http://www.seas.upenn.edu/">@UPENN</a> studying Computer Science until May 2021.</p>
-			<p>B.A. in Computer Science, Magna Cum Laude
-				<a target="_blank" href="http://brynmawr.edu/">@BMC</a> with thesis: <a href="https://chloesheen.github.io/Thesis.pdf">Algebraic Characterization of Regular Languages</a>.</p>
-			<p>Former software developer
-				<a href="http://lem.ma" target="_blank">@Lemma</a>,
-				web design instructor <a href="http://www.bsd.education/" target="_blank">@BSD</a>,
-			and research in speech recognition and synthesis using
-				<a href="http://festvox.org" target="_blank">Festvox.</a> </p>
+		  <h1>
+		    <div class="title"> <a href="https://chloesheen.com/">Chloe Sheen</a>
+		    </div>
+		  </h1>
+		
+		  <h2>
+		    <div class="title">
+		      researcher  <br />
+			   & <br/>
+		      developer   <br />
 
+		    </div>
+		  </h2>
+		
+		  <h2 class="contact">
+		    <div class="title"> 
+				📩 
+		      <a href="mailto: mail@chloesheen.com">mail@chloesheen.com</a><br/>
+			  based in 📍San Francisco
+		    </div>
+		  </h2>
+
+		  <nav class="contact">
+		    <a target="_blank" href="https://www.linkedin.com/in/chloesheen" target="_blank">linkedin</a><br />
+		    <a target="_blank" href="https://github.com/chloesheen" target="_blank">github</a><br />
+			<a target="_blank" href="http://chloesheen.com/Resume.pdf">resume</a>
+		  </nav>
 		</header>
+		
+		
+		<section> 
 
-		<footer class="footer">
+		  	<div class="work" style="animation-delay: .4s;">
+				<span class="italic">Currently at </span><a target="_blank" href="https://www.grabelab.org/">Grabe Lab @UCSF</a>,<br />
+				working on simulating protein folding <br/>
+				using molecular dynamics. <br />
+				
+			</div>
 
-			<ul>
-				<li>
-					<a href="https://chloesheen.github.io/about.html">About</a>
-				</li>
-				<li>
-					<a href="https://chloesheen.github.io/Resume.pdf" target="_blank">Resume</a>
-				</li>
-				<li>
-					<a href="https://chloesheen.github.io/Portfolio.pdf" target="_blank">Portfolio</a>
-				</li>
-				<li>
-					<a href="https://github.com/chloesheen" target="_blank">Github</a>
-				</li>
-				<li>
-					<a href="https://www.linkedin.com/in/chloesheen/" target="_blank">LinkedIn</a>
-				</li>
-				<li>
-					<a href="mailto:mail@chloesheen.com" target="_blank">Contact</a>
-				</li>
-			</ul>
+			<div class="school" style="animation-delay: .6s;">
+				<span class="italic">Recent graduate of </span> <br/>
+				University of Pennsylvania's <br />
+				<a target="_blank" href="https://www.cis.upenn.edu/graduate/program-offerings/mse-in-cis/">CIS/MSE</a> Program.
+		  	</div>
 
+		  <div class="work" style="animation-delay: .8s;">
+			<span class="italic">B.A. in Computer Science, <br/>Magna Cum Laude </span> <br/>
+			<a target="_blank" href="https://www.brynmawr.edu/">Bryn Mawr College</a>: <br />
+			<a target="_blank" href="http://chloesheen.com/Thesis.pdf">Algebraic Characterization of Regular Languages</a>,<br />
+		</div>
+	  <br />
+
+	  <br />
+		</section>
+		
+		<footer class="title">
+		  <p>@chloesheen.com</p>
 		</footer>
-
-	</div>
-
-</body>
-
+		
+		
+		<canvas id="project-canvas" 
+				style="position: absolute !important;
+				pointer-events: none !important;
+				top: 0;
+				left: -10px;
+				z-index: 1;"></canvas>
+		
+		<!-- <script src="jquery.js"></script>
+		<script src="jquery-ui.js"></script>
+		<script src="draggable.js"></script>
+		<script src="drawer_sample.js"></script> -->
+		
+	</body>
 </html>
